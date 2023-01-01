@@ -7290,8 +7290,8 @@ textarea.form-control-lg {
 }
 
 .my-5 {
-  margin-top: 3rem !important;
-  margin-bottom: 3rem !important;
+  margin-top: 2rem !important;
+  margin-bottom: 1rem !important;
 }
 
 .my-auto {
@@ -7492,7 +7492,7 @@ textarea.form-control-lg {
 
 .py-5 {
   padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-bottom: 5rem !important;
 }
 
 .pt-0 {
@@ -7837,7 +7837,8 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color:#baCEC1;
+  /* background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important; */
 }
 
 .bg-dark {
@@ -11663,4 +11664,40 @@ ul.link li a::after {
     margin: 0;
     opacity: 1;
     transition: 0s
+}
+/* -----------------sdsd */
+.scrollsec {
+  background: #333;
+  /* height: 100vh; */
+  position: relative;
+  /* width: 100%; */
+}
+
+
+.scrollsec::before {
+  animation: bounce 1s ease infinite;
+  bottom: 2rem;
+  /* text-orientation: mixed; */
+  /* writing-mode: vertical-lr; */
+  /* border: solid black 1px; */
+  /* display: inline-block; */
+  color: black;
+  content: "╲╱";/* content: '╲╱'; */
+  font-size: 1rem;
+  font-weight: bolder;
+  height: 2rem;
+  right: 0%;
+  letter-spacing: -1px;
+  line-height: 1rem;
+  margin-left: -3rem;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  width: 6rem;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-50%);
+  }
 }
