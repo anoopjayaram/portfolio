@@ -11496,7 +11496,7 @@ opacity:0;
 margin-left:-10px;
 position:absolute;
 font-weight:300;   
-box-shadow: 0px 60px 25px -20px rgba(0,0,0,0.5);
+/* box-shadow: 0px 60px 25px -20px rgba(0,0,0,0.5); */
 }
 
 .dropping-texts > div:nth-child(1) {
