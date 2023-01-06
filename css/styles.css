@@ -11481,13 +11481,14 @@ html {
 
 /* ------------- */
 .dropping-texts {
-  color: orangered;
-  font-size: 1em;
-display: inline-block;
-width: 180px;
-text-align: left;
-height: 36px;
-vertical-align: -2px;
+  color: orange;
+  font-size: 1.6em;
+  font-weight: 500;
+  display: inline-block;
+  width: 280px;
+  text-align: left;
+  height: 36px;
+  vertical-align: -2px;
 }
 
 .dropping-texts > div {
